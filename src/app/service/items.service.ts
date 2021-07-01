@@ -5,10 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class ItemsService {
   items = [
-    { id: 1, title: 'Bad test',
-    content: 'Bla Bla Bla'},
-    { id: 2, title: 'Mmmmm',
-    content: 'Ыыыыыы'}
+    { id: 1, title: 'Title1',
+    content: 'Content1'},
+    { id: 2, title: 'Title2',
+    content: 'Content2'}
   ];
 
   add(item: any): void {
